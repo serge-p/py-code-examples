@@ -21,7 +21,8 @@ since these are weights on a probability distribution, these should sum to one,
 and the incoming array should be of length 6. 
 You should throw if either of these preconditions is false
 
-source files: `six_sided_dice.py` `six_sided_dice_numpy.py` test_weighted_dice
+source files: `six_sided_dice.py` `six_sided_dice_numpy.py` 
+unittst source: `test_weighted_dice.py`
 
 *** 
 
