@@ -27,13 +27,13 @@ source files: `six_sided_dice.py` `six_sided_dice_numpy.py` test_weighted_dice
 
 ####Runtime example: 
 
-	```python 
+```python 
 	>>> from six_sided_dice import SixSidedWeightedDie
 	>>> weights = [.05, .10, .15, .2, .2, .3]
 	>>> SixSidedWeightedDie(weights).throw_die()
 	3
-	```
-	
+```
+
 ####run unittest:  
 
 	`python -m unittest test_weighted_dice`
@@ -64,11 +64,11 @@ source files: `palindrome.py`
 
 ####runtime example: 
 
-	```python 
-	from palindrome import palindromes
-	palindromes('abc');
-	['a', 'c', 'b', 'aa', 'cc', 'bb', 'aba', 'aca', 'aaa', 'cbc', 'bbb', 'bcb', 'bab', 'cac', 'ccc']
-	```
+```python 
+from palindrome import palindromes
+palindromes('abc');
+['a', 'c', 'b', 'aa', 'cc', 'bb', 'aba', 'aca', 'aaa', 'cbc', 'bbb', 'bcb', 'bab', 'cac', 'ccc']
+```
 
 ####run unittest:  
 
